@@ -25,6 +25,11 @@ body {
     background-color: #141414;
 }
 
+#start_page {
+    width: 600px;
+    margin: auto;
+}
+
 #questions {
     width: 600px;
     margin: auto;
