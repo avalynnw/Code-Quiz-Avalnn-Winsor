@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Coding Quiz</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <!--
+                <h2>View Highscores</h2>
+            -->
+            <button id="highscores_button" class="btn"> View Highscores</button>
+            <h2 id="countdown"></h2>
+        </header>
+        <main>
+
+            <div class="container">
+                <div id="start_page">
+                    <h1>Coding Quiz Challenge</h1>
+                    <p>
+                        Try to answer the following code-related 
+                        questions within the time limit. keep in 
+                        mind that incorrect answers will penalize 
+                        your score/time by ten seconds! Your score is 
+                        based off of the numbers of correct questions 
+                        answered and the amount of time 
+                        remaining when you finish.
+                    </p>
+                    <div>
+                        <button id="start" class="btn">Start Quiz</button>
+                    </div>
+                </div>
+
+                <div id="questions">
+                    <div id="questions_text">
+                    </div>
+                    <div id="options_buttons">
+                        <button id="A-button" class="btn"></button>
+                        <button id="B-button" class="btn"></button>
+                        <button id="C-button" class="btn"></button>
+                        <button id="D-button" class="btn"></button>
+                    </div>
+                    <div id="alert_text">
+                    </div>
+                </div>
+
+
+                <div id="post-game-screen">
+                    <h1>All done!</h1>
+                    <p id="score"></p>
+                    <h2>Enter initials: </h2>
+                    <form id="highscore_form">
+                        <input type="text" name="initials" id="initials"/>
+                        <button id="submit" class="btn">SUBMIT</button>
+                    </form>
+                </div>
+
+                <div id="highscores">
+                    <h1>Highscores List</h1>
+                    <ul id="highscore_list">wwefefw</ul>
+                    <button id="go_back" class="btn">Go Back</button>
+                    <button id="clear" class="btn">Clear Highscores</button>
+                </div>
+            </div>
+        </main>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
